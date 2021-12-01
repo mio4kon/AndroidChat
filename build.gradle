@@ -3,6 +3,7 @@
 buildscript {
     repositories {
         mavenLocal()
+        maven { url 'http://maven.aliyun.com/nexus/content/repositories/google' }
         mavenCentral()
     }
     dependencies {
@@ -16,6 +17,7 @@ buildscript {
 allprojects {
     repositories {
         mavenLocal()
+        maven { url 'http://maven.aliyun.com/nexus/content/repositories/google' }
         mavenCentral()
    }
 }
