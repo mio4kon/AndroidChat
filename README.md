@@ -16,6 +16,5 @@ http://socket.io/blog/native-socket-io-and-android/
 https://github.com/socketio/socket.io/issues/2823
 
 ## License
-
 MIT
 
