@@ -3,7 +3,7 @@ println "--------1 -------"
 
 
 def sout = new StringBuilder(), serr = new StringBuilder()
-def proc = 'ls -a /ws/mars_test'.execute()
+def proc = 'ls -a /ws/mars_test/ilint_mars'.execute()
 proc.consumeProcessOutput(sout, serr)
 proc.waitForOrKill(1000)
 println"out> $sout"
