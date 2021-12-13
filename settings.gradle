@@ -1,2 +1,5 @@
 include ':app'
 
+gradle.buildFinished { buildResult ->
+    println "======》 BUILD FINISHED"
+}
