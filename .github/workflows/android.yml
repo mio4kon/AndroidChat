@@ -24,5 +24,8 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
-    - name: Run AndroidLint with reviewdog
-      uses: DVDAndroid/action-android-lint@v1.2
+    - name: Run Android Lint
+      uses: dvdandroid/action-android-lint@master
+      with:
+        github_token: ${{ secrets.TOKEN_GITHUB }}
+        lint_xml_file: app/build/reports/lint-results.xml
