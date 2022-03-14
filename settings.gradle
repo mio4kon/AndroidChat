@@ -1,11 +1,3 @@
 include ':app'
 
-gradle.buildFinished { buildResult ->
-    println "======》 BUILD FINISHED"
-    println("111111111 -------")
-    def sout = new StringBuilder(), serr = new StringBuilder()
-    def proc = 'sh 1.sh'.execute()
-    proc.consumeProcessOutput(sout, serr)
-    proc.waitForOrKill(30000)
-    println"out> $sout"
-}
+
