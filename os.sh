@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "===========os.sh ==========="
 host="oss-cn-shanghai.aliyuncs.com"
-bucket="mio44-test"
+bucket=""
 Key="Access Key Secret"
 # 参数1，PUT：上传，GET：下载
 method=$1
